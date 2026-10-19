@@ -5,7 +5,7 @@
   <img src="./assets/hero-dark.svg" alt="Trần Đăng Khoa — Embedded systems, robotics and automation" width="100%" />
 </picture>
 
-<br />
+<h1>Trần Đăng Khoa</h1>
 
 **Electrical Engineering & Automation @ UNETI · Vietnam**  
 Building end-to-end engineering systems: **PCB → Firmware → Communication → Control → Validation**.
