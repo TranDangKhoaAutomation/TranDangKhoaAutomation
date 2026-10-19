@@ -1,105 +1,97 @@
 <div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
-  <img src="./assets/hero-light.svg" alt="Engineering portfolio: building real systems through hardware, firmware and control" width="100%" />
+  <img src="./assets/hero-dark.svg" alt="Trần Đăng Khoa — Embedded systems, robotics and automation" width="100%" />
 </picture>
-
-</div>
-
-# Trần Đăng Khoa
-
-**Embedded systems · Electronics · Automation**  
-Electrical Engineering & Automation student at **UNETI**, Vietnam.
-
-I build connected hardware and software—from schematic and PCB design to firmware, communication, integration, and testing. My primary interests are **STM32/ESP32 systems, robotics, motor control, and practical automation**.
-
-[Projects](#selected-projects) · [Expertise](#technical-expertise) · [Process](#engineering-process) · [Contact](#contact)
-
----
-
-## Selected projects
-
-A small selection of public work, chosen to show different parts of my engineering workflow.
-
-### 01 / Motor Control Deck
-**[Motor-Control-Deck →](https://github.com/TranDangKhoaAutomation/Motor-Control-Deck)**
-
-STM32 motor-control tooling with a USB CDC bridge, direct UART communication, and a four-motor test interface.
-
-`STM32` · `C` · `USB CDC` · `UART`
-
-### 02 / ESP32 Mini TV
-**[CYD-2.8Inch-Mini-Tivi →](https://github.com/TranDangKhoaAutomation/CYD-2.8Inch-Mini-Tivi)**
-
-A touchscreen application for the ESP32 CYD display, combining SD-based MJPEG playback with network and streaming features.
-
-`ESP32` · `C++` · `Touch UI` · `Wi-Fi`
-
-### 03 / Bluetooth Robot
-**[Robot_DHTD18A2HN_2025 →](https://github.com/TranDangKhoaAutomation/Robot_DHTD18A2HN_2025)**
-
-An ESP32 Bluetooth-controlled robot with DC motor drive, a servo arm, drive modes, and a communication-loss fail-safe.
-
-`ESP32` · `C++` · `Motor control` · `Servo`
-
-### 04 / Developer Infrastructure
-**[Codex-Plugin-Bridge →](https://github.com/TranDangKhoaAutomation/Codex-Plugin-Bridge)**
-
-A Windows-focused MCP bridge connecting AI assistants to scoped local workspaces and engineering tools.
-
-`MCP` · `Windows` · `Developer tools` · `Integrations`
-
-<details>
-<summary><strong>More projects</strong></summary>
-
-- **[STM32 FreeRTOS Multi-Task Demo](https://github.com/TranDangKhoaAutomation/STM32-FreeRTOS-Multi-Task-Demo)** — tasks for control, communication, logging, and safety monitoring.
-- **[Do Line](https://github.com/TranDangKhoaAutomation/Do_Line)** — line-following robot with PID, anti-windup, and adaptive speed.
-- **[Altium Library](https://github.com/TranDangKhoaAutomation/Altium_Library)** — reusable Altium schematic symbols and PCB footprints.
-- **[TranslateDub](https://github.com/TranDangKhoaAutomation/TranslateDub)** — bilingual subtitles with synchronized text-to-speech dubbing.
-
-[Browse all repositories →](https://github.com/TranDangKhoaAutomation?tab=repositories)
-
-</details>
-
-## Technical expertise
-
-| Discipline | Focus |
-| :-- | :-- |
-| **Firmware** | C/C++, STM32, ESP32, FreeRTOS, peripheral drivers |
-| **Hardware** | Schematic design, PCB layout, bring-up, measurement |
-| **Communication** | UART, SPI, I²C, CAN, RS485, Ethernet |
-| **Robotics & control** | Motor drives, sensors, PID, PLC/HMI concepts |
-| **Engineering tools** | KiCad, Altium Designer, Python, Git, VS Code |
-
-## Engineering process
-
-**01 — Understand**  
-Start with requirements, constraints, existing source code, and component datasheets.
-
-**02 — Design**  
-Define interfaces, choose components, and keep hardware and firmware boundaries explicit.
-
-**03 — Integrate**  
-Bring up hardware, instrument communication, and test real operating conditions.
-
-**04 — Verify**  
-Measure behavior, investigate root causes, document findings, and repeat regression tests.
-
-> The objective is not just a working demo. It is a system that can be understood, measured, and maintained.
-
-<details>
-<summary><strong>GitHub activity and language breakdown</strong></summary>
 
 <br />
 
-<div align="center">
-  <img src="./profile/stats.svg" width="355" alt="Generated GitHub contribution statistics" />
-  <img src="./profile/top-langs.svg" width="345" alt="Generated breakdown of languages in public repositories" />
+**Electrical Engineering & Automation @ UNETI · Vietnam**  
+Building end-to-end engineering systems: **PCB → Firmware → Communication → Control → Validation**.
+
+<p>
+  <a href="https://github.com/TranDangKhoaAutomation?tab=followers"><img src="https://img.shields.io/github/followers/TranDangKhoaAutomation?style=flat-square&label=Followers&color=168A8D&labelColor=12293C&logo=github&logoColor=white" alt="GitHub follower count" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation?tab=repositories"><img src="https://img.shields.io/badge/Explore-Repositories-168A8D?style=flat-square&logo=github&logoColor=white&labelColor=12293C" alt="Browse GitHub repositories" /></a>
+  <a href="mailto:trandangkhoa.automation@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-168A8D?style=flat-square&logo=gmail&logoColor=white&labelColor=12293C" alt="Contact by email" /></a>
+</p>
+
+[GitHub stats](#github-stats) · [Activity](#contribution-activity) · [Projects](#featured-repositories) · [Stack](#engineering-stack) · [Contact](#contact)
 </div>
 
-<sub>Generated by this repository's scheduled workflow. Values can lag behind recent activity and do not measure engineering proficiency.</sub>
+---
+
+## GitHub Stats
+
+<div align="center">
+  <img src="./profile/stats.svg" width="355" alt="GitHub statistics — commits, stars, pull requests and contributions" />
+  <img src="./profile/top-langs.svg" width="345" alt="Programming languages breakdown across public repositories" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=TranDangKhoaAutomation&amp;theme=dark&amp;background=0D1B2A&amp;ring=79E4DC&amp;fire=79E4DC&amp;currStreakNum=FFFFFF&amp;currStreakLabel=79E4DC&amp;sideLabels=D9E9F2&amp;sideNums=FFFFFF&amp;dates=AFC2D0&amp;stroke=2D465B&amp;border=2D465B&amp;hide_border=false&amp;border_radius=12&amp;disable_animations=true" width="495" alt="GitHub contribution totals, current streak and longest streak" />
+</div>
+
+## Contribution Activity
+
+<div align="center">
+  <a href="https://github.com/TranDangKhoaAutomation"><img src="https://github-readme-activity-graph.vercel.app/graph?username=TranDangKhoaAutomation&amp;bg_color=0D1B2A&amp;color=D9E9F2&amp;title_color=79E4DC&amp;line=79E4DC&amp;point=FFFFFF&amp;area_color=205A66&amp;area=true&amp;hide_border=true&amp;radius=12&amp;height=300&amp;days=40" width="100%" alt="Recent GitHub contribution activity graph" /></a>
+</div>
+
+<sub>Stats and repository cards are snapshots produced by GitHub Actions. The activity graph and streak card use public live services; these can temporarily be unavailable or cached. Numbers and language percentages are not a measure of engineering proficiency.</sub>
+
+---
+
+## Featured Repositories
+
+<div align="center">
+  <a href="https://github.com/TranDangKhoaAutomation/Motor-Control-Deck"><img src="./profile/pin-motor-control-deck.svg" width="390" alt="Motor-Control-Deck — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/CYD-2.8Inch-Mini-Tivi"><img src="./profile/pin-cyd-mini-tv.svg" width="390" alt="CYD-2.8Inch-Mini-Tivi — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/STM32-FreeRTOS-Multi-Task-Demo"><img src="./profile/pin-stm32-freertos.svg" width="390" alt="STM32-FreeRTOS-Multi-Task-Demo — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/Do_Line"><img src="./profile/pin-do-line.svg" width="390" alt="Do_Line — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/Robot_DHTD18A2HN_2025"><img src="./profile/pin-robot-dhtd18a2hn-2025.svg" width="390" alt="Robot_DHTD18A2HN_2025 — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/Altium_Library"><img src="./profile/pin-altium-library.svg" width="390" alt="Altium_Library — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/Codex-Plugin-Bridge"><img src="./profile/pin-codex-plugin-bridge.svg" width="390" alt="Codex-Plugin-Bridge — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/TranslateDub"><img src="./profile/pin-translatedub.svg" width="390" alt="TranslateDub — GitHub repository statistics" /></a>
+</div>
+
+<div align="center">
+
+[**View all repositories →**](https://github.com/TranDangKhoaAutomation?tab=repositories)
+
+</div>
+
+## Engineering Stack
+
+<div align="center">
+
+![C](https://img.shields.io/badge/C-1B3652?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-1B3652?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-1B3652?style=flat-square&logo=python&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-137981?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-137981?style=flat-square&logo=espressif&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-137981?style=flat-square)
+![KiCad](https://img.shields.io/badge/KiCad-1B3652?style=flat-square&logo=kicad&logoColor=white)
+![Altium](https://img.shields.io/badge/Altium-1B3652?style=flat-square&logo=altiumdesigner&logoColor=white)
+![Git](https://img.shields.io/badge/Git-1B3652?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-1B3652?style=flat-square&logo=github&logoColor=white)
+
+</div>
+
+| Focus | What I work on |
+| :-- | :-- |
+| **Embedded systems** | STM32, ESP32, C/C++, FreeRTOS, drivers and real-time control |
+| **Hardware & PCB** | Schematic capture, component selection, PCB layout and bring-up |
+| **Industrial interfaces** | UART, SPI, I²C, CAN, RS485 and Ethernet |
+| **Robotics & automation** | Motor control, sensors, PID, robotics and PLC/HMI |
+| **Engineering software** | Python automation, tooling and hardware/software integration |
+
+<details>
+<summary><b>Engineering approach</b></summary>
+
+**Requirements → Design → Implementation → Measurement → Debugging → Verification**
+
+I prefer official datasheets and existing source code over assumptions, instrumented testing over guesswork, and reproducible regression checks over unverified changes.
 
 </details>
 
@@ -107,6 +99,12 @@ Measure behavior, investigate root causes, document findings, and repeat regress
 
 ## Contact
 
-For projects involving embedded firmware, electronics, automation, or engineering software:
+<div align="center">
 
-**[Email](mailto:trandangkhoa.automation@gmail.com)** · [GitHub](https://github.com/TranDangKhoaAutomation) · [YouTube](https://youtube.com/@TranDangKhoaTechnology) · [Facebook](https://www.facebook.com/OfficialTranDangKhoa)
+For embedded firmware, electronics, automation or engineering software:
+
+[**Email**](mailto:trandangkhoa.automation@gmail.com) · [**GitHub**](https://github.com/TranDangKhoaAutomation) · [**YouTube**](https://youtube.com/@TranDangKhoaTechnology) · [**Facebook**](https://www.facebook.com/OfficialTranDangKhoa)
+
+<sub>HARDWARE / FIRMWARE / CONTROL / SOFTWARE</sub>
+
+</div>
