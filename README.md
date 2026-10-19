@@ -3,116 +3,110 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
-  <img src="./assets/hero-light.svg" width="100%" alt="Engineering portfolio banner: from circuits to real systems" />
+  <img src="./assets/hero-light.svg" alt="Engineering portfolio: building real systems through hardware, firmware and control" width="100%" />
 </picture>
+
+</div>
 
 # Trần Đăng Khoa
 
-**Electrical Engineering & Automation Student · UNETI · Vietnam**
+**Embedded systems · Electronics · Automation**  
+Electrical Engineering & Automation student at **UNETI**, Vietnam.
 
-I design and build practical systems across **embedded firmware, electronics, PCB design, robotics, and automation** — from the first schematic to an integrated, testable product.
+I build connected hardware and software—from schematic and PCB design to firmware, communication, integration, and testing. My primary interests are **STM32/ESP32 systems, robotics, motor control, and practical automation**.
 
-<p>
-  <a href="https://github.com/TranDangKhoaAutomation"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="mailto:trandangkhoa.automation@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://youtube.com/@TranDangKhoaTechnology"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" /></a>
-  <a href="https://www.facebook.com/OfficialTranDangKhoa"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" /></a>
-</p>
-
-[**Explore projects**](#featured-projects) · [**Tech stack**](#technology-stack) · [**Engineering approach**](#engineering-approach) · [**Contact**](#contact)
-
-</div>
+[Projects](#selected-projects) · [Expertise](#technical-expertise) · [Process](#engineering-process) · [Contact](#contact)
 
 ---
 
-## About me
+## Selected projects
 
-I'm an electrical engineering and automation student interested in making **hardware and software work as one reliable system**. My projects span microcontrollers, control algorithms, communication interfaces, custom PCBs, desktop tools, and real-world testing.
+A small selection of public work, chosen to show different parts of my engineering workflow.
 
-> **My system workflow:** Requirements → Schematic & PCB → Firmware → Communication → Application → Integration & verification
+### 01 / Motor Control Deck
+**[Motor-Control-Deck →](https://github.com/TranDangKhoaAutomation/Motor-Control-Deck)**
 
-My focus is not only on making a prototype run, but on understanding **why it works, how it fails, and how to reproduce the result**.
+STM32 motor-control tooling with a USB CDC bridge, direct UART communication, and a four-motor test interface.
 
-## Engineering focus
+`STM32` · `C` · `USB CDC` · `UART`
 
-- **Embedded & real-time control** — STM32, ESP32, C/C++, FreeRTOS, peripheral drivers, UART, SPI, I²C, CAN, and RS485.
-- **Electronics & PCB** — component selection, circuit design, power stages, layout, hardware bring-up, and measurement.
-- **Robotics & automation** — motor control, sensing, closed-loop control, PLC/HMI, safety logic, and fault recovery.
-- **Engineering software** — Python utilities, dashboards, developer tooling, and integrated hardware/software workflows.
+### 02 / ESP32 Mini TV
+**[CYD-2.8Inch-Mini-Tivi →](https://github.com/TranDangKhoaAutomation/CYD-2.8Inch-Mini-Tivi)**
 
-## Featured projects
+A touchscreen application for the ESP32 CYD display, combining SD-based MJPEG playback with network and streaming features.
 
-A selection of public repositories that illustrate my work across the engineering stack.
+`ESP32` · `C++` · `Touch UI` · `Wi-Fi`
 
-### Embedded devices & control
+### 03 / Bluetooth Robot
+**[Robot_DHTD18A2HN_2025 →](https://github.com/TranDangKhoaAutomation/Robot_DHTD18A2HN_2025)**
 
-**[Motor Control Deck](https://github.com/TranDangKhoaAutomation/Motor-Control-Deck)** — STM32-oriented motor-control tooling with USB CDC, UART communication, and testing for four motors.
+An ESP32 Bluetooth-controlled robot with DC motor drive, a servo arm, drive modes, and a communication-loss fail-safe.
 
-**[CYD 2.8-inch Mini TV](https://github.com/TranDangKhoaAutomation/CYD-2.8Inch-Mini-Tivi)** — ESP32 touchscreen interface with video playback and network-based features.
+`ESP32` · `C++` · `Motor control` · `Servo`
 
-<p align="center">
-  <a href="https://github.com/TranDangKhoaAutomation/Motor-Control-Deck"><img width="350" src="./profile/pin-motor-control-deck.svg" alt="Motor Control Deck repository summary" /></a>
-  <a href="https://github.com/TranDangKhoaAutomation/CYD-2.8Inch-Mini-Tivi"><img width="350" src="./profile/pin-cyd-mini-tv.svg" alt="ESP32 CYD Mini TV repository summary" /></a>
-</p>
+### 04 / Developer Infrastructure
+**[Codex-Plugin-Bridge →](https://github.com/TranDangKhoaAutomation/Codex-Plugin-Bridge)**
 
-### Robotics & developer infrastructure
+A Windows-focused MCP bridge connecting AI assistants to scoped local workspaces and engineering tools.
 
-**[Robot DHTD18A2HN 2025](https://github.com/TranDangKhoaAutomation/Robot_DHTD18A2HN_2025)** — ESP32 Bluetooth robot controlling DC motors and a servo-driven robotic arm.
+`MCP` · `Windows` · `Developer tools` · `Integrations`
 
-**[Codex Plugin Bridge](https://github.com/TranDangKhoaAutomation/Codex-Plugin-Bridge)** — Windows-focused MCP bridge connecting AI assistants to scoped local engineering tools.
+<details>
+<summary><strong>More projects</strong></summary>
 
-<p align="center">
-  <a href="https://github.com/TranDangKhoaAutomation/Robot_DHTD18A2HN_2025"><img width="350" src="./profile/pin-robot-dhtd18a2hn-2025.svg" alt="ESP32 Bluetooth robot repository summary" /></a>
-  <a href="https://github.com/TranDangKhoaAutomation/Codex-Plugin-Bridge"><img width="350" src="./profile/pin-codex-plugin-bridge.svg" alt="Codex Plugin Bridge repository summary" /></a>
-</p>
+- **[STM32 FreeRTOS Multi-Task Demo](https://github.com/TranDangKhoaAutomation/STM32-FreeRTOS-Multi-Task-Demo)** — tasks for control, communication, logging, and safety monitoring.
+- **[Do Line](https://github.com/TranDangKhoaAutomation/Do_Line)** — line-following robot with PID, anti-windup, and adaptive speed.
+- **[Altium Library](https://github.com/TranDangKhoaAutomation/Altium_Library)** — reusable Altium schematic symbols and PCB footprints.
+- **[TranslateDub](https://github.com/TranDangKhoaAutomation/TranslateDub)** — bilingual subtitles with synchronized text-to-speech dubbing.
 
-### More engineering projects
+[Browse all repositories →](https://github.com/TranDangKhoaAutomation?tab=repositories)
 
-- **[STM32 FreeRTOS Multi-Task Demo](https://github.com/TranDangKhoaAutomation/STM32-FreeRTOS-Multi-Task-Demo)** — structured control, communication, logging, and safety-related tasks.
-- **[Do Line](https://github.com/TranDangKhoaAutomation/Do_Line)** — line-following robot with PID control, derivative filtering, and adaptive speed.
-- **[Altium Library](https://github.com/TranDangKhoaAutomation/Altium_Library)** — reusable schematic symbols and PCB footprints for Altium Designer.
-- **[TranslateDub](https://github.com/TranDangKhoaAutomation/TranslateDub)** — browser extension for translated subtitles and synchronized text-to-speech dubbing.
+</details>
 
-[**Browse all my repositories →**](https://github.com/TranDangKhoaAutomation?tab=repositories)
+## Technical expertise
 
-## Technology stack
+| Discipline | Focus |
+| :-- | :-- |
+| **Firmware** | C/C++, STM32, ESP32, FreeRTOS, peripheral drivers |
+| **Hardware** | Schematic design, PCB layout, bring-up, measurement |
+| **Communication** | UART, SPI, I²C, CAN, RS485, Ethernet |
+| **Robotics & control** | Motor drives, sensors, PID, PLC/HMI concepts |
+| **Engineering tools** | KiCad, Altium Designer, Python, Git, VS Code |
 
-| Area | Tools & technologies |
-| :--- | :--- |
-| **Embedded firmware** | C, C++, STM32, ESP32, FreeRTOS, PlatformIO |
-| **Electronics & PCB** | KiCad, Altium Designer, schematic capture, PCB layout |
-| **Control & connectivity** | PLC, HMI, UART, SPI, I²C, CAN, RS485, Ethernet |
-| **Software & tooling** | Python, Git, GitHub, VS Code, JavaScript |
+## Engineering process
 
-## GitHub activity
+**01 — Understand**  
+Start with requirements, constraints, existing source code, and component datasheets.
+
+**02 — Design**  
+Define interfaces, choose components, and keep hardware and firmware boundaries explicit.
+
+**03 — Integrate**  
+Bring up hardware, instrument communication, and test real operating conditions.
+
+**04 — Verify**  
+Measure behavior, investigate root causes, document findings, and repeat regression tests.
+
+> The objective is not just a working demo. It is a system that can be understood, measured, and maintained.
+
+<details>
+<summary><strong>GitHub activity and language breakdown</strong></summary>
+
+<br />
 
 <div align="center">
-
-<img width="355" src="./profile/stats.svg" alt="GitHub contribution and repository statistics" />
-<img width="345" src="./profile/top-langs.svg" alt="Languages detected across public GitHub repositories" />
-
-<sub>Statistics and project cards are generated by this repository's scheduled GitHub Actions workflow; values may lag behind recent activity.</sub>
-
+  <img src="./profile/stats.svg" width="355" alt="Generated GitHub contribution statistics" />
+  <img src="./profile/top-langs.svg" width="345" alt="Generated breakdown of languages in public repositories" />
 </div>
 
-## Engineering approach
+<sub>Generated by this repository's scheduled workflow. Values can lag behind recent activity and do not measure engineering proficiency.</sub>
 
-1. **Start with evidence.** Read the datasheet, define requirements, identify constraints, and inspect the existing design.
-2. **Build for observability.** Include logs, test points, clear interfaces, and reproducible build steps.
-3. **Verify the whole system.** Check electrical behavior, firmware logic, communication, failure handling, and regression risks.
-
-The goal is maintainable engineering: **understand → design → implement → measure → debug → verify**.
+</details>
 
 ---
 
 ## Contact
 
-<div align="center">
+For projects involving embedded firmware, electronics, automation, or engineering software:
 
-**Interested in embedded systems, automation, PCB design, or robotics?**
-
-[Email](mailto:trandangkhoa.automation@gmail.com) · [GitHub](https://github.com/TranDangKhoaAutomation) · [YouTube](https://youtube.com/@TranDangKhoaTechnology) · [Facebook](https://www.facebook.com/OfficialTranDangKhoa)
-
-<sub>Hardware · Firmware · Control · Software · Validation</sub>
-
-</div>
+**[Email](mailto:trandangkhoa.automation@gmail.com)** · [GitHub](https://github.com/TranDangKhoaAutomation) · [YouTube](https://youtube.com/@TranDangKhoaTechnology) · [Facebook](https://www.facebook.com/OfficialTranDangKhoa)
