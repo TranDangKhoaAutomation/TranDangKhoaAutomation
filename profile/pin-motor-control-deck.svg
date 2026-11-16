@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #006AFF;
+            fill: #79E4DC;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,15 +22,15 @@
           }
           
     .description {
-      font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif;fill: #417E87;
+      font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif;fill: #D9E9F2;
       
     }
-    .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #417E87 }
+    .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #D9E9F2 }
     .badge { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }
-    .badge rect { opacity: 0.2; stroke: #417E87 }
-    .badge text { fill: #417E87 }
+    .badge rect { opacity: 0.2; stroke: #D9E9F2 }
+    .badge text { fill: #D9E9F2 }
 
-    .stat { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #417E87 }
+    .stat { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #D9E9F2 }
     .stagger {
       opacity: 0;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
@@ -38,7 +38,7 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #0579C3;
+      fill: #79E4DC;
       display: block;
     }
   
@@ -80,9 +80,9 @@
           y="0.5"
           rx="4.5"
           height="99%"
-          stroke="#e4e2e2"
+          stroke="#2D465B"
           width="399"
-          fill="#ffffff00"
+          fill="#0D1B2A"
           stroke-opacity="1"
         />
 

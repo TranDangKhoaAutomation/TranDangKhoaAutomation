@@ -1,107 +1,99 @@
 <div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
-  <img src="./assets/hero-light.svg" width="100%" alt="Engineering portfolio banner: from circuits to real systems" />
+  <img src="./assets/hero-dark.svg" alt="Trần Đăng Khoa — Embedded systems, robotics and automation" width="100%" />
 </picture>
 
-# Trần Đăng Khoa
+<h1>Trần Đăng Khoa</h1>
 
-**Electrical Engineering & Automation Student · UNETI · Vietnam**
-
-I design and build practical systems across **embedded firmware, electronics, PCB design, robotics, and automation** — from the first schematic to an integrated, testable product.
+**Electrical Engineering & Automation @ UNETI · Vietnam**  
+Building end-to-end engineering systems: **PCB → Firmware → Communication → Control → Validation**.
 
 <p>
-  <a href="https://github.com/TranDangKhoaAutomation"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="mailto:trandangkhoa.automation@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://youtube.com/@TranDangKhoaTechnology"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" /></a>
-  <a href="https://www.facebook.com/OfficialTranDangKhoa"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation?tab=followers"><img src="https://img.shields.io/github/followers/TranDangKhoaAutomation?style=flat-square&label=Followers&color=168A8D&labelColor=12293C&logo=github&logoColor=white" alt="GitHub follower count" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation?tab=repositories"><img src="https://img.shields.io/badge/Explore-Repositories-168A8D?style=flat-square&logo=github&logoColor=white&labelColor=12293C" alt="Browse GitHub repositories" /></a>
+  <a href="mailto:trandangkhoa.automation@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-168A8D?style=flat-square&logo=gmail&logoColor=white&labelColor=12293C" alt="Contact by email" /></a>
 </p>
 
-[**Explore projects**](#featured-projects) · [**Tech stack**](#technology-stack) · [**Engineering approach**](#engineering-approach) · [**Contact**](#contact)
-
+[GitHub stats](#github-stats) · [Activity](#contribution-activity) · [Projects](#featured-repositories) · [Stack](#engineering-stack) · [Contact](#contact)
 </div>
 
 ---
 
-## About me
+## GitHub Stats
 
-I'm an electrical engineering and automation student interested in making **hardware and software work as one reliable system**. My projects span microcontrollers, control algorithms, communication interfaces, custom PCBs, desktop tools, and real-world testing.
+<div align="center">
+  <img src="./profile/stats.svg" width="355" alt="GitHub statistics — commits, stars, pull requests and contributions" />
+  <img src="./profile/top-langs.svg" width="345" alt="Programming languages breakdown across public repositories" />
+</div>
 
-> **My system workflow:** Requirements → Schematic & PCB → Firmware → Communication → Application → Integration & verification
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=TranDangKhoaAutomation&amp;theme=dark&amp;background=0D1B2A&amp;ring=79E4DC&amp;fire=79E4DC&amp;currStreakNum=FFFFFF&amp;currStreakLabel=79E4DC&amp;sideLabels=D9E9F2&amp;sideNums=FFFFFF&amp;dates=AFC2D0&amp;stroke=2D465B&amp;border=2D465B&amp;hide_border=false&amp;border_radius=12&amp;disable_animations=true" width="495" alt="GitHub contribution totals, current streak and longest streak" />
+</div>
 
-My focus is not only on making a prototype run, but on understanding **why it works, how it fails, and how to reproduce the result**.
+## Contribution Activity
 
-## Engineering focus
+<div align="center">
+  <a href="https://github.com/TranDangKhoaAutomation"><img src="https://github-readme-activity-graph.vercel.app/graph?username=TranDangKhoaAutomation&amp;bg_color=0D1B2A&amp;color=D9E9F2&amp;title_color=79E4DC&amp;line=79E4DC&amp;point=FFFFFF&amp;area_color=205A66&amp;area=true&amp;hide_border=true&amp;radius=12&amp;height=300&amp;days=40" width="100%" alt="Recent GitHub contribution activity graph" /></a>
+</div>
 
-- **Embedded & real-time control** — STM32, ESP32, C/C++, FreeRTOS, peripheral drivers, UART, SPI, I²C, CAN, and RS485.
-- **Electronics & PCB** — component selection, circuit design, power stages, layout, hardware bring-up, and measurement.
-- **Robotics & automation** — motor control, sensing, closed-loop control, PLC/HMI, safety logic, and fault recovery.
-- **Engineering software** — Python utilities, dashboards, developer tooling, and integrated hardware/software workflows.
+<sub>Stats and repository cards are snapshots produced by GitHub Actions. The activity graph and streak card use public live services; these can temporarily be unavailable or cached. Numbers and language percentages are not a measure of engineering proficiency.</sub>
 
-## Featured projects
+---
 
-A selection of public repositories that illustrate my work across the engineering stack.
+## Featured Repositories
 
-### Embedded devices & control
-
-**[Motor Control Deck](https://github.com/TranDangKhoaAutomation/Motor-Control-Deck)** — STM32-oriented motor-control tooling with USB CDC, UART communication, and testing for four motors.
-
-**[CYD 2.8-inch Mini TV](https://github.com/TranDangKhoaAutomation/CYD-2.8Inch-Mini-Tivi)** — ESP32 touchscreen interface with video playback and network-based features.
-
-<p align="center">
-  <a href="https://github.com/TranDangKhoaAutomation/Motor-Control-Deck"><img width="350" src="./profile/pin-motor-control-deck.svg" alt="Motor Control Deck repository summary" /></a>
-  <a href="https://github.com/TranDangKhoaAutomation/CYD-2.8Inch-Mini-Tivi"><img width="350" src="./profile/pin-cyd-mini-tv.svg" alt="ESP32 CYD Mini TV repository summary" /></a>
-</p>
-
-### Robotics & developer infrastructure
-
-**[Robot DHTD18A2HN 2025](https://github.com/TranDangKhoaAutomation/Robot_DHTD18A2HN_2025)** — ESP32 Bluetooth robot controlling DC motors and a servo-driven robotic arm.
-
-**[Codex Plugin Bridge](https://github.com/TranDangKhoaAutomation/Codex-Plugin-Bridge)** — Windows-focused MCP bridge connecting AI assistants to scoped local engineering tools.
-
-<p align="center">
-  <a href="https://github.com/TranDangKhoaAutomation/Robot_DHTD18A2HN_2025"><img width="350" src="./profile/pin-robot-dhtd18a2hn-2025.svg" alt="ESP32 Bluetooth robot repository summary" /></a>
-  <a href="https://github.com/TranDangKhoaAutomation/Codex-Plugin-Bridge"><img width="350" src="./profile/pin-codex-plugin-bridge.svg" alt="Codex Plugin Bridge repository summary" /></a>
-</p>
-
-### More engineering projects
-
-- **[STM32 FreeRTOS Multi-Task Demo](https://github.com/TranDangKhoaAutomation/STM32-FreeRTOS-Multi-Task-Demo)** — structured control, communication, logging, and safety-related tasks.
-- **[Do Line](https://github.com/TranDangKhoaAutomation/Do_Line)** — line-following robot with PID control, derivative filtering, and adaptive speed.
-- **[Altium Library](https://github.com/TranDangKhoaAutomation/Altium_Library)** — reusable schematic symbols and PCB footprints for Altium Designer.
-- **[TranslateDub](https://github.com/TranDangKhoaAutomation/TranslateDub)** — browser extension for translated subtitles and synchronized text-to-speech dubbing.
-
-[**Browse all my repositories →**](https://github.com/TranDangKhoaAutomation?tab=repositories)
-
-## Technology stack
-
-| Area | Tools & technologies |
-| :--- | :--- |
-| **Embedded firmware** | C, C++, STM32, ESP32, FreeRTOS, PlatformIO |
-| **Electronics & PCB** | KiCad, Altium Designer, schematic capture, PCB layout |
-| **Control & connectivity** | PLC, HMI, UART, SPI, I²C, CAN, RS485, Ethernet |
-| **Software & tooling** | Python, Git, GitHub, VS Code, JavaScript |
-
-## GitHub activity
+<div align="center">
+  <a href="https://github.com/TranDangKhoaAutomation/Motor-Control-Deck"><img src="./profile/pin-motor-control-deck.svg" width="390" alt="Motor-Control-Deck — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/CYD-2.8Inch-Mini-Tivi"><img src="./profile/pin-cyd-mini-tv.svg" width="390" alt="CYD-2.8Inch-Mini-Tivi — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/STM32-FreeRTOS-Multi-Task-Demo"><img src="./profile/pin-stm32-freertos.svg" width="390" alt="STM32-FreeRTOS-Multi-Task-Demo — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/Do_Line"><img src="./profile/pin-do-line.svg" width="390" alt="Do_Line — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/Robot_DHTD18A2HN_2025"><img src="./profile/pin-robot-dhtd18a2hn-2025.svg" width="390" alt="Robot_DHTD18A2HN_2025 — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/Altium_Library"><img src="./profile/pin-altium-library.svg" width="390" alt="Altium_Library — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/Codex-Plugin-Bridge"><img src="./profile/pin-codex-plugin-bridge.svg" width="390" alt="Codex-Plugin-Bridge — GitHub repository statistics" /></a>
+  <a href="https://github.com/TranDangKhoaAutomation/TranslateDub"><img src="./profile/pin-translatedub.svg" width="390" alt="TranslateDub — GitHub repository statistics" /></a>
+</div>
 
 <div align="center">
 
-<img width="355" src="./profile/stats.svg" alt="GitHub contribution and repository statistics" />
-<img width="345" src="./profile/top-langs.svg" alt="Languages detected across public GitHub repositories" />
-
-<sub>Statistics and project cards are generated by this repository's scheduled GitHub Actions workflow; values may lag behind recent activity.</sub>
+[**View all repositories →**](https://github.com/TranDangKhoaAutomation?tab=repositories)
 
 </div>
 
-## Engineering approach
+## Engineering Stack
 
-1. **Start with evidence.** Read the datasheet, define requirements, identify constraints, and inspect the existing design.
-2. **Build for observability.** Include logs, test points, clear interfaces, and reproducible build steps.
-3. **Verify the whole system.** Check electrical behavior, firmware logic, communication, failure handling, and regression risks.
+<div align="center">
 
-The goal is maintainable engineering: **understand → design → implement → measure → debug → verify**.
+![C](https://img.shields.io/badge/C-1B3652?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-1B3652?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-1B3652?style=flat-square&logo=python&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-137981?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-137981?style=flat-square&logo=espressif&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-137981?style=flat-square)
+![KiCad](https://img.shields.io/badge/KiCad-1B3652?style=flat-square&logo=kicad&logoColor=white)
+![Altium](https://img.shields.io/badge/Altium-1B3652?style=flat-square&logo=altiumdesigner&logoColor=white)
+![Git](https://img.shields.io/badge/Git-1B3652?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-1B3652?style=flat-square&logo=github&logoColor=white)
+
+</div>
+
+| Focus | What I work on |
+| :-- | :-- |
+| **Embedded systems** | STM32, ESP32, C/C++, FreeRTOS, drivers and real-time control |
+| **Hardware & PCB** | Schematic capture, component selection, PCB layout and bring-up |
+| **Industrial interfaces** | UART, SPI, I²C, CAN, RS485 and Ethernet |
+| **Robotics & automation** | Motor control, sensors, PID, robotics and PLC/HMI |
+| **Engineering software** | Python automation, tooling and hardware/software integration |
+
+<details>
+<summary><b>Engineering approach</b></summary>
+
+**Requirements → Design → Implementation → Measurement → Debugging → Verification**
+
+I prefer official datasheets and existing source code over assumptions, instrumented testing over guesswork, and reproducible regression checks over unverified changes.
+
+</details>
 
 ---
 
@@ -109,10 +101,10 @@ The goal is maintainable engineering: **understand → design → implement → 
 
 <div align="center">
 
-**Interested in embedded systems, automation, PCB design, or robotics?**
+For embedded firmware, electronics, automation or engineering software:
 
-[Email](mailto:trandangkhoa.automation@gmail.com) · [GitHub](https://github.com/TranDangKhoaAutomation) · [YouTube](https://youtube.com/@TranDangKhoaTechnology) · [Facebook](https://www.facebook.com/OfficialTranDangKhoa)
+[**Email**](mailto:trandangkhoa.automation@gmail.com) · [**GitHub**](https://github.com/TranDangKhoaAutomation) · [**YouTube**](https://youtube.com/@TranDangKhoaTechnology) · [**Facebook**](https://www.facebook.com/OfficialTranDangKhoa)
 
-<sub>Hardware · Firmware · Control · Software · Validation</sub>
+<sub>HARDWARE / FIRMWARE / CONTROL / SOFTWARE</sub>
 
 </div>
